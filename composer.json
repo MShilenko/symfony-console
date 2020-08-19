@@ -1,0 +1,17 @@
+{
+    "name": "felix/symfony-console",
+    "authors": [
+        {
+            "name": "ShilenkoMP",
+            "email": "shilenkomp@mail.ru"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.1"
+    },
+     "autoload": {
+        "psr-4": {
+            "App\\": ["src"]
+        }
+    }
+}
